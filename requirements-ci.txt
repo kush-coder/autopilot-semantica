@@ -1372,9 +1372,9 @@ docling-parse==7.23.0 \
     --hash=sha256:f625742187efed68eecbd4594a3123a3f418dc2aff57430773e2d6667edec1ba \
     --hash=sha256:f873b25874993db8f06540ca656e62b8bfcb1c82a21cb48b8f4728fe4aaf1e72
     # via docling-slim
-docling-slim==2.142.0 \
-    --hash=sha256:1841e4fe8fdbc1e37da544222a48b40b82c4ad64c875458ef16ed6a88098850e \
-    --hash=sha256:31dee3f967b2d3abd6631c1a961cea15a3e3c3c8e24ec336e25f079e6dc46110
+docling-slim==2.150.1 \
+    --hash=sha256:30d50598957e3f83337b82a9f4fd76c6f72c409dbf03f6fca4afc7a331117e4f \
+    --hash=sha256:e62f17bb546208d3f6794c09bdae61a96ef698a5bbc05696f7fbfdbb02a0fa3a
     # via docling
 docstring-parser==0.18.0 \
     --hash=sha256:292510982205c12b1248696f44959db3cdd1740237a968ea1e2e7a900eeb2015 \
