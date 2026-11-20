@@ -23,7 +23,7 @@ RUN mkdir -p /app/semantica && npm run build
 # bumps for this image. gensim (extras graph-embeddings / split-topic) still
 # ships no cp314 wheel. Raise the ceiling in pyproject.toml, the Install Matrix
 # and this image together once 3.14 is verified, not with a lone image bump.
-FROM python:3.13-slim@sha256:8d9d0b8bcf6506481eae4907c18f5e3e7902e629f5f6d684f9e7c32e85e3ddf0 AS runtime
+FROM python:3.13-slim@sha256:e48f59cdba69a3cbd9ed2cf0f348d90d45a8d350d98134cf1070bc106ee9ed90 AS runtime
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
